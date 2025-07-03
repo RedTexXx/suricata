@@ -1,4 +1,6 @@
-## ✅ Step 1: Check if Suricata is Installed
+## Suricata On Debian Xfce
+
+✅ Step 1: Check if Suricata is Installed
 
 Run the following command to check if Suricata is available:
 
