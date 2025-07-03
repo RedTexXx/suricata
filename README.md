@@ -10,7 +10,7 @@ If nothing is returned, install Suricata:
 sudo apt update
 sudo apt install suricata
 
-## 🛠 Step 2: Manually Create a systemd Service File (if needed)
+🛠 Step 2: Manually Create a systemd Service File (if needed)
 
 If Suricata is installed but the suricata.service file is missing, follow these steps to create one:
 1. Create the Service File
@@ -33,13 +33,13 @@ WantedBy=multi-user.target
 
     ⚠️ Note: Update the ExecStart path and interface (eth0) to match your system setup.
 
-## 3. Reload systemd and Start the Service
+3. Reload systemd and Start the Service
 
 sudo systemctl daemon-reexec
 sudo systemctl daemon-reload
 sudo systemctl enable --now suricata
 
-## 4. Confirm Suricata is Running
+4. Confirm Suricata is Running
 
 sudo systemctl status suricata
 
@@ -58,4 +58,3 @@ To identify your network interface:
     Suricata Official Documentation
 
     systemd.service Manual
-
